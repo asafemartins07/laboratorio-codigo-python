@@ -6,6 +6,5 @@ class cliente:
   def exibir_dados(self):
     print(f"{self.nome},{self.idade},{self.cpf}")
 
-
 Usuario = cliente('asafe', ' 18', ' 15458640985')
 Usuario.exibir_dados()
