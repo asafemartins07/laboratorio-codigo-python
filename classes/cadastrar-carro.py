@@ -10,10 +10,6 @@ class Carro:
   def Ligar(self):
     return f" o carro {self.modelo}, esta ligado "
 
-
-
-
-
 carrinho = Carro("mitsubish", "Lancer evo 9", 2009)
 carrinho.Descrever()
 carrinho.Ligar()
